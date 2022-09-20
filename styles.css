@@ -13,7 +13,7 @@
 }
 
 .header,
-.main-content {
+.hero-content {
     display: flex;
     padding-left: 260px;
     padding-right: 260px;
@@ -47,7 +47,7 @@
     color: #E5E7EB;
 }
 
-.main-content {
+.hero-content {
     min-height: 460px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -96,3 +96,34 @@ button.sign-up {
     align-items: center;
 }
 
+.information {
+    height: 500px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.information .image-container {
+    display: flex;
+}
+
+.information-image {
+    width: 170px;
+
+    flex: 1;
+} 
+
+.image-rounded {
+    height: 170px;
+    width: 170px;
+    border: 2px solid #3B82F6;
+    border-radius: 16px;
+}
