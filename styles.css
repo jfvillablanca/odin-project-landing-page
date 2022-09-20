@@ -2,4 +2,10 @@
     border: 1px solid palevioletred;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+.header-and-main,
+.footer {
+    background-color: #1F2937;
 }
