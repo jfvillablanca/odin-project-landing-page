@@ -15,8 +15,11 @@
 .header,
 .main-content {
     display: flex;
-    padding-left: 210px;
-    padding-right: 210px;
+    padding-left: 260px;
+    padding-right: 260px;
+
+    flex: 1;
+    justify-content: space-between;
 }
 
 .header {
@@ -25,11 +28,10 @@
 }
 
 .header-logo {
-    font-weight: bold;
+    font-weight: 950;
     font-size: 24px;
     color: #F9FAF8;
 
-    flex: 1;
 }
 
 .header-links {
@@ -37,6 +39,7 @@
    font-size: 18px;
 
    display: flex;
+   gap: 16px;
 }
 
 .header-links li a {
@@ -48,11 +51,19 @@
     min-height: 460px;
     padding-top: 100px;
     padding-bottom: 100px;
+
+    gap: 64px;
 }
 
+.hero-text,
+.hero-image {
+    height: 240px;
+    width: 522px;
+}
 .hero-text {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .hero-text .main {
@@ -65,3 +76,23 @@
     font-size: 18px;
     color: #E5E7EB;
 }
+
+button.sign-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    height: 40px;
+    width: 130px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-image {
+    background-color: gray;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
