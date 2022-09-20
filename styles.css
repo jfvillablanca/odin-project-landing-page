@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -140,4 +140,30 @@ button.sign-up {
 .information-image p {
     text-align: center;
     color: #1F2937;
+}
+
+.testimonials {
+    height: 430px;
+    background-color: #E5E7EB;
+    padding-left: 370px;
+    padding-right: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.testimonials h4 {
+    font-size: 24px;
+    font-weight: bold;
+
+    align-self: flex-end;
 }
