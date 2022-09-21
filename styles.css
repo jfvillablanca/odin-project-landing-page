@@ -1,5 +1,5 @@
 * {
-    border: 1px solid palevioletred;
+/*     border: 1px solid palevioletred; DEBUGGING */
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -171,44 +171,43 @@ button.sign-up {
 .call-to-action {
     height: 350px;
     background-color: white;
-/*     padding-top: 100px; */
-/*     padding-bottom: 100px; */
-/*     padding-left: 205px; */
-/*     padding-right: 205px; */
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.call-to-action div {
+.call-to-action > div {
     width: 1000px;
     height: 150px;
     background-color: #3B82F6;
     border-radius: 8px;
-    padding-top: 54px;
-    padding-bottom: 54px;
     padding-left: 120px;
     padding-right: 120px;
- 
+  
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center; 
-}
+    gap: 16px;
+ }
 
 
 .cta-text {
     color: #F9FAF8;
 
-/*     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start; */
+    justify-content: flex-start; 
 }
 
 .cta-text h4 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
+}
+
+.cta-text > * {
+    text-align: left;
 }
 
 .cta-button {
@@ -220,6 +219,8 @@ button.sign-up {
     color: #F9FAF8;
     font-weight: bold;
     font-size: 18px;
+
+    align-self: center;
 }
 
 .footer {
